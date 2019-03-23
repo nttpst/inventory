@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">inventory</string>
     <string name="button_login">login</string>
+    <string name="string_push_to_login">(push the button to login)</string>
 </resources>
