@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">inventory</string>
+    <string name="button_login">войти</string>
+    <string name="string_push_to_login">(нажмите на кнопку, чтобы войти)</string>
+</resources>
