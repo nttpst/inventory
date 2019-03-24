@@ -1,5 +1,6 @@
 package com.vehseri.inventory;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -30,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, R.string.string_push_to_login , Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this, WorkActivity.class);
+                startActivity(intent);
             }
         });
     }
