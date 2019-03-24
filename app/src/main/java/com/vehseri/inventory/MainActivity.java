@@ -24,11 +24,12 @@ public class MainActivity extends AppCompatActivity {
         textHello = findViewById(R.id.text_hello);
         buttonLogin = findViewById(R.id.button_login);
     }
+    /* handle buttonLogin behavior */
     private void setButtonLogin() {
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                /* button switch to next activity */
             }
         });
     }
