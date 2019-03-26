@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">оборудование и доступы</string>
+    <string name="app_name">Inventory and Access</string>
     <string name="button_login">войти</string>
     <string name="string_push_to_login">(нажмите на кнопку, чтобы войти)</string>
 
     /* Menu Items */
+    <string name="menu_item_inventory">Оборудование</string>
+    <string name="menu_item_access">Доступы</string>
     <string name="menu_item_about">О программе</string>
 </resources>
