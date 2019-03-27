@@ -12,6 +12,6 @@
 
 	/* Instructions */
     <string name="instructions_access">(here access instructions)</string>
-    <string name="instructions_inventory">(instructions here)</string>
+    <string name="instructions_inventory">(here inventory instructions)</string>
 
 </resources>
