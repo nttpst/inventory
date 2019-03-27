@@ -27,6 +27,7 @@ public class WorkActivity extends AppCompatActivity {
             case R.id.menuItemInventory: {
                 Intent intent = new Intent(WorkActivity.this, InventoryActivity.class);
                 startActivity(intent);
+                WorkActivity.super.finish();
                 return true;
             }
             case R.id.menuItemAccess: {
@@ -40,7 +41,7 @@ public class WorkActivity extends AppCompatActivity {
                 return true;
             }
             case R.id.menuItemExit: {
-                System.exit(0);
+                WorkActivity.super.finish();
                 return true;
             }
             default:{
