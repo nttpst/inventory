@@ -1,5 +1,6 @@
 package com.vehseri.inventory;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -28,7 +29,9 @@ public class WorkActivity extends AppCompatActivity {
                 return true;
             }
             case R.id.menuItemAccess: {
-                Toast.makeText(this, "Переход на вкладку доступов", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(WorkActivity.this, AccessActivity.class);
+                startActivity(intent);
+                WorkActivity.super.finish();
                 return true;
             }
             case R.id.menuItemAbout: {
