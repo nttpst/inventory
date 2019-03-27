@@ -9,9 +9,4 @@
     <string name="menu_item_access">Access</string>
     <string name="menu_item_about">About</string>
     <string name="menu_item_exit">Exit</string>
-    /* Menu Items Condensed */
-    <string name="menu_item_inventory_short">Inv.</string>
-    <string name="menu_item_access_short">Acc.</string>
-    <string name="menu_item_about_short">Abt.</string>
-    <string name="menu_item_exit_short">Ex.</string>
 </resources>
