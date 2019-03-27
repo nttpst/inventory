@@ -1,5 +1,6 @@
 package com.vehseri.inventory;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -24,7 +25,8 @@ public class WorkActivity extends AppCompatActivity {
         int id = item.getItemId();
         switch (id) {
             case R.id.menuItemInventory: {
-                Toast.makeText(this, "Переход на вкладку оборудования", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(WorkActivity.this, InventoryActivity.class);
+                startActivity(intent);
                 return true;
             }
             case R.id.menuItemAccess: {

@@ -9,4 +9,6 @@
     <string name="menu_item_access">Доступы</string>
     <string name="menu_item_about">О программе</string>
     <string name="menu_item_exit">Выйти</string>
+    /* Instructions */
+    <string name="instructions_inventory">(инструкции здесь)</string>
 </resources>
