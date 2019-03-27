@@ -10,5 +10,8 @@
     <string name="menu_item_about">About</string>
     <string name="menu_item_exit">Exit</string>
 
+	/* Instructions */
     <string name="instructions_access">(here access instructions)</string>
+    <string name="instructions_inventory">(instructions here)</string>
+
 </resources>

@@ -10,5 +10,8 @@
     <string name="menu_item_about">О программе</string>
     <string name="menu_item_exit">Выйти</string>
 
+    /* Instructions */
     <string name="instructions_access">(инструкции по доступу)</string>
+    <string name="instructions_inventory">(инструкции здесь)</string>
+
 </resources>
