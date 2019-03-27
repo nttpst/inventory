@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuItemInventory" android:title="@string/menu_item_inventory" android:titleCondensed=""></item>
+    <item android:id="@+id/menuItemAccess" android:title="@string/menu_item_access" android:titleCondensed=""></item>
+    <item android:id="@+id/menuItemAbout" android:title="@string/menu_item_about" android:titleCondensed=""></item>
+    <item android:id="@+id/menuItemExit" android:title="@string/menu_item_exit" android:titleCondensed=""></item>
+</menu>

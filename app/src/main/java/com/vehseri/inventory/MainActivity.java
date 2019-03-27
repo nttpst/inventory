@@ -1,5 +1,6 @@
 package com.vehseri.inventory;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -29,7 +30,9 @@ public class MainActivity extends AppCompatActivity {
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                /* button switch to next activity */
+                Intent intent = new Intent(MainActivity.this, WorkActivity.class);
+                startActivity(intent);
+                System.exit(0);
             }
         });
     }

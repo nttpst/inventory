@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">inventory</string>
+    <string name="app_name">Inventory and Access</string>
     <string name="button_login">войти</string>
     <string name="string_push_to_login">(нажмите на кнопку, чтобы войти)</string>
+
+    /* Menu Items */
+    <string name="menu_item_inventory">Инвентарь</string>
+    <string name="menu_item_access">Доступы</string>
+    <string name="menu_item_about">О программе</string>
+    <string name="menu_item_exit">Выйти</string>
+    /* Menu Items Condensed */
+    <string name="menu_item_inventory_short">Инв.</string>
+    <string name="menu_item_access_short">Дост.</string>
+    <string name="menu_item_about_short">О пр.</string>
+    <string name="menu_item_exit_short">Вых.</string>
 </resources>

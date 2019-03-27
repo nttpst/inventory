@@ -1,5 +1,17 @@
+
 <resources>
-    <string name="app_name">inventory</string>
+    <string name="app_name">Inventory and Access</string>
     <string name="button_login">login</string>
     <string name="string_push_to_login">(push the button to login)</string>
+
+    /* Menu Items */
+    <string name="menu_item_inventory">Inventory</string>
+    <string name="menu_item_access">Access</string>
+    <string name="menu_item_about">About</string>
+    <string name="menu_item_exit">Exit</string>
+    /* Menu Items Condensed */
+    <string name="menu_item_inventory_short">Inv.</string>
+    <string name="menu_item_access_short">Acc.</string>
+    <string name="menu_item_about_short">Abt.</string>
+    <string name="menu_item_exit_short">Ex.</string>
 </resources>
