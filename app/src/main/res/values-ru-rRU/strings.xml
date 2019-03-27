@@ -12,6 +12,6 @@
 
     /* Instructions */
     <string name="instructions_access">(инструкции по доступу)</string>
-    <string name="instructions_inventory">(инструкции здесь)</string>
+    <string name="instructions_inventory">(инструкции по инвентарю)</string>
 
 </resources>

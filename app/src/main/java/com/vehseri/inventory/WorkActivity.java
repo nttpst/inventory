@@ -27,13 +27,13 @@ public class WorkActivity extends AppCompatActivity {
             case R.id.menuItemInventory: {
                 Intent intent = new Intent(WorkActivity.this, InventoryActivity.class);
                 startActivity(intent);
-                WorkActivity.super.finish();
+                this.finish();
                 return true;
             }
             case R.id.menuItemAccess: {
                 Intent intent = new Intent(WorkActivity.this, AccessActivity.class);
                 startActivity(intent);
-                WorkActivity.super.finish();
+                this.finish();
                 return true;
             }
             case R.id.menuItemAbout: {
