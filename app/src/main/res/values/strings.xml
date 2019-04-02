@@ -1,4 +1,3 @@
-
 <resources>
     <string name="app_name">Inventory and Access</string>
     <string name="button_login">login</string>
@@ -9,9 +8,11 @@
     <string name="menu_item_access">Access</string>
     <string name="menu_item_about">About</string>
     <string name="menu_item_exit">Exit</string>
+    <string name="button_ok">Okidoki</string>
 
 	/* Instructions */
     <string name="instructions_access">(here access instructions)</string>
     <string name="instructions_inventory">(here inventory instructions)</string>
+    <string name="information_about" >nttpst.develop@gmail.com</string>
 
 </resources>

@@ -1,11 +1,11 @@
 package com.vehseri.inventory;
 
 import android.content.Intent;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 public class WorkActivity extends AppCompatActivity {
 
@@ -37,7 +37,9 @@ public class WorkActivity extends AppCompatActivity {
                 return true;
             }
             case R.id.menuItemAbout: {
-                Toast.makeText(this, "Автор. Версия. Связь", Toast.LENGTH_LONG).show();
+                FragmentManager manager = getSupportFragmentManager();
+                AboutDialog aboutDialog = new AboutDialog();
+                aboutDialog.show(manager, "tagAboutDialog");
                 return true;
             }
             case R.id.menuItemExit: {

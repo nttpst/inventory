@@ -9,9 +9,11 @@
     <string name="menu_item_access">Доступы</string>
     <string name="menu_item_about">О программе</string>
     <string name="menu_item_exit">Выйти</string>
+    <string name="button_ok">Яснопонятно</string>
 
     /* Instructions */
     <string name="instructions_access">(инструкции по доступу)</string>
     <string name="instructions_inventory">(инструкции по инвентарю)</string>
+    <string name="information_about">nttpst.develop@gmail.com</string>
 
 </resources>
